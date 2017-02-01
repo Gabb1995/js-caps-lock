@@ -1,0 +1,20 @@
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<input id="inputBox" type="password"/>
+<div id="caps">Caps Lock is On!</div>
+
+<script type="text/javascript">
+var caps = null;
+    document.getElementById("inputBox").addEventListener('click', function(e) {
+        if (e.getModifierState('CapsLock')) { caps = true; $('#caps').show(); }
+        else { caps = false; $('#caps').hide(); }
+    });
+    document.getElementById("inputBox").addEventListener('keypress', function(e) {
+        if (e.getModifierState('CapsLock')) { caps = true; $('#caps').show(); }
+        else { caps = false; $('#caps').hide(); }
+    });
+    document.addEventListener('keydown', function(e) {
+        if (e.which == 20) {
+        if ( typeof(caps) === 'boolean') { caps = !caps; $('#caps').toggle(); }
+    }
+});
+</script>
