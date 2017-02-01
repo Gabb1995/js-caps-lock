@@ -8,3 +8,5 @@ This way we always look at the state of the caps lock not at the state of the ch
 For a demo you can look at this fiddle:
 
 http://www.jsfiddle.net/e50nmrtz/4/
+
+![](http://imgur.com/a/8wLtC)
