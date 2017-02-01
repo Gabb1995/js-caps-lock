@@ -6,7 +6,7 @@ I searched for a long time for a way to create a fully working caps lock detecto
 This way we always look at the state of the caps lock not at the state of the characters you type.
 
 For a demo you can look at this fiddle:
-
+<script async src="//jsfiddle.net/e50nmrtz/4/embed/"></script>
 http://www.jsfiddle.net/e50nmrtz/4/
 
 ![](http://i.imgur.com/yjfFHyw.gif)
