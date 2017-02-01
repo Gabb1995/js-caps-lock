@@ -9,4 +9,4 @@ For a demo you can look at this fiddle:
 
 http://www.jsfiddle.net/e50nmrtz/4/
 
-![](http://imgur.com/a/8wLtC)
+![Demo](http://imgur.com/a/8wLtC)
